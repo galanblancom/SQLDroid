@@ -419,7 +419,7 @@ public class SQLDroidPreparedStatement implements PreparedStatement {
   @Override
   public void setEscapeProcessing(boolean enable) throws SQLException {
     if (!enable) {
-      throw new UnsupportedOperationException("setEscapeProcessing not implemented yet");
+      //throw new UnsupportedOperationException("setEscapeProcessing not implemented yet");
     }
   }
 
